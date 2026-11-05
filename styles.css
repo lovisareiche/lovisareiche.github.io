@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap');
 
 :root {
   --ink: #17241e;
@@ -81,13 +81,13 @@ h1, h2, h3 { text-wrap: balance; }
 }
 .hero h1 {
   margin-bottom: 2rem;
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: "Newsreader", Georgia, serif;
   font-size: clamp(5.3rem, 11vw, 9.3rem);
   font-weight: 400;
   line-height: .76;
   letter-spacing: -.045em;
 }
-.hero-intro { max-width: 560px; font-family: "Instrument Serif", Georgia, serif; font-size: clamp(1.45rem, 2.4vw, 2rem); line-height: 1.3; }
+.hero-intro { max-width: 560px; font-family: "Newsreader", Georgia, serif; font-size: clamp(1.45rem, 2.4vw, 2rem); line-height: 1.3; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 2.4rem; }
 .button { padding: .8rem 1.2rem; border: 1px solid var(--ink); text-decoration: none; font-size: .83rem; font-weight: 600; }
 .button-primary { background: var(--ink); color: var(--paper); }
@@ -102,7 +102,7 @@ h1, h2, h3 { text-wrap: balance; }
 .about { display: grid; grid-template-columns: 1fr 3fr; gap: 3rem; }
 .about h2, .section-heading h2 {
   margin-bottom: 2.5rem;
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: "Newsreader", Georgia, serif;
   font-size: clamp(3rem, 6vw, 5.6rem);
   font-weight: 400;
   line-height: .98;
@@ -125,7 +125,7 @@ h1, h2, h3 { text-wrap: balance; }
 .paper-kicker { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; margin-bottom: 1.3rem; color: var(--ink-soft); font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; }
 .paper-kicker a { color: inherit; }
 .status { color: var(--accent); font-weight: 600; }
-.paper h3 { margin-bottom: 1.5rem; font-family: "Instrument Serif", Georgia, serif; font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 400; line-height: 1.08; }
+.paper h3 { margin-bottom: 1.5rem; font-family: "Newsreader", Georgia, serif; font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 400; line-height: 1.08; }
 .former-title, .paper-note { color: var(--ink-soft); font-size: .86rem; }
 .paper-links { display: flex; flex-wrap: wrap; gap: .7rem 1.4rem; margin: 1.5rem 0; }
 .paper-links a { font-size: .85rem; font-weight: 600; }
@@ -148,7 +148,7 @@ details[open] .plus::after { transform: translate(-50%, -50%) rotate(0); }
 .teaching-item { padding: 2rem; background: var(--paper-deep); }
 .teaching-item.current-teaching { grid-column: 1 / -1; background: var(--sage); }
 .teaching-meta { margin-bottom: 1.25rem; color: var(--ink-soft); font-size: .7rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }
-.teaching-item h3 { margin-bottom: 1rem; font-family: "Instrument Serif", Georgia, serif; font-size: clamp(2rem, 3vw, 2.8rem); font-weight: 400; line-height: 1.05; }
+.teaching-item h3 { margin-bottom: 1rem; font-family: "Newsreader", Georgia, serif; font-size: clamp(2rem, 3vw, 2.8rem); font-weight: 400; line-height: 1.05; }
 .teaching-item p:last-child { margin-bottom: 0; color: var(--ink-soft); }
 .teaching-item a { color: var(--ink); font-weight: 600; }
 .teaching-item a:hover { color: var(--accent); }
